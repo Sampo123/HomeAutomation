@@ -10,6 +10,16 @@
   	<description></description>
   	<servlet-class>homeautomation.servlets.TestServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>LedServlet</servlet-name>
+  	<display-name>LedServlet</display-name>
+  	<description></description>
+  	<servlet-class>homeautomation.servlets.LedServie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LedService</servlet-name>
+  	<url-pattern>/LedService</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
   	<servlet-name>TestServlet</servlet-name>
   	<url-pattern>/TestServlet</url-pattern>
